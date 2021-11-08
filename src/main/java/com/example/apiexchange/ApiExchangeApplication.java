@@ -35,7 +35,7 @@ public class ApiExchangeApplication {
 	@Bean
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception{
 		return args -> {
-			fetchData();
+
 		};
 	}
 
